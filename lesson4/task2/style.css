@@ -2,10 +2,10 @@
     font-size: 24px;
 }
 
-p {
+.par {
     color: green;
 }
 
-li {
+.elm {
     color: orange;
 }
