@@ -4,6 +4,7 @@ li {
 
 ul li:first-child span {
     background-color: red;
+    color: white;
 }
 
 ul li:last-child span {
