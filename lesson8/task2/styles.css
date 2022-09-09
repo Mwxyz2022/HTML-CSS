@@ -1,6 +1,7 @@
 .rectangle {
     box-sizing: border-box;
     font-size: 24px;
+    padding: 20px;
     margin: 50px 100px;
     width: 500px;
     height: 200px;
