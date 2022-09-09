@@ -38,7 +38,7 @@ input[type='text'] {
     background-color: gray;
 }
 
-div [p^='One'] {
+div:nth-child(5) p:nth-child(3) {
     border: 5px solid white;
 }
 
