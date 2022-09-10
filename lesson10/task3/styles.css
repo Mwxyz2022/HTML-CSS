@@ -18,11 +18,12 @@ body {
 
 .header__list {
     display: flex;
+    margin: 0;
     list-style-type: none;
 }
 
 .header__list_element {
-    margin-right: 10px;
+    margin-left: 16px;
 }
 
 .main {
