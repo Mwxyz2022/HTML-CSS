@@ -16,6 +16,8 @@ h1 {
 
 div {
     height: 200px;
+    color: white;
+    text-transform: lowercase;
     background-color: coral;
     text-align: center;
     line-height: 200px;
