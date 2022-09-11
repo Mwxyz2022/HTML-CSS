@@ -1,5 +1,4 @@
 html {
-    box-sizing: border-box;
     margin: 32px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -16,7 +15,7 @@ p {
 }
 
 .firstword {
-    font-weight: 900;
+    font-weight: bold;
     letter-spacing: 3px;
     font-size: 24px;
     opacity: 0.8;
