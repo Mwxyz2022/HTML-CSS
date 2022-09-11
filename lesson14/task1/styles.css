@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+.properties-list {
+    list-style-type: none;
+    font-weight: 32px;
+    font-size: 24px;
+}
+
+.properties-list__item {
+    color: #f39;
+    margin: 8px;
+}
