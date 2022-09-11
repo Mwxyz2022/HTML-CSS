@@ -8,11 +8,11 @@ html {
 
 .properties-list {
     list-style-type: none;
-    font-weight: 32px;
-    font-size: 24px;
 }
 
 .properties-list__item {
+    font-size: 24px;
+    font-weight: 32px;
     color: #f39;
     margin: 8px;
 }
