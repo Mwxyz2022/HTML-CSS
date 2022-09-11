@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+}
+
 .image {
     height: 200px;
     width: 200px;
@@ -6,8 +14,4 @@
     background-repeat: no-repeat;
     border: 1px dotted gray;
     margin: 16px;
-}
-
-.gallery {
-    display: flex;
 }
