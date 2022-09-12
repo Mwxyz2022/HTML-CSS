@@ -1,1 +1,11 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="./styles.css" /><title>Document</title></head><body><form><div class="form-control"><input type="text" name="lastName" value="Emerson" /></div><div class="form-control"><input type="number" name="age" value="17" /></div><div class="form-control"><label><input type="checkbox" name="agree" />Accept terms and conditions </label></div><div class="form-control choose-gender"><label for="gender_male"><input type="radio" id="gender_male" name="gender" />Male </label><label for="gender_female"><input type="radio" id="gender_female" name="gender" />Female</label><label for="gender_secret"><input type="radio" id="gender_secret" name="gender" />Secret</label></div><textarea name="description" placeholder="Write description..."></textarea><div class="form-control"><button type="submit">Submit</button></div></form></body></html>
+* {
+    box-sizing: border-box;
+}
+
+.form-control {
+    margin: 16px;
+}
+
+.choose-gender label {
+    display: block;
+}
