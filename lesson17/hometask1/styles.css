@@ -20,29 +20,35 @@ td {
 
 tr:nth-child(odd) td:nth-child(even) {
     background-color: black;
+    border: 1px solid black
 }
 
 tr:nth-child(even) td:nth-child(odd) {
     background-color: black;
+    border: 1px solid black
 }
 
 table:first-child tr:first-child td {
     background-color: white;
+    border: none;
     border-bottom: 1px solid black;
 }
 
 table:first-child tr:last-child td {
     background-color: white;
+    border: none;
     border-top: 1px solid black;
 }
 
 table:first-child tr td:first-child {
     background-color: white;
+    border: none;
     border-right: 1px solid black;
 }
 
 table:first-child tr td:last-child {
     background-color: white;
+    border: none;
     border-left: 1px solid black;
 }
 
