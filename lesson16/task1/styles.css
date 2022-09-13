@@ -9,3 +9,7 @@
 .choose-gender input {
     margin-right: 5px;
 }
+
+textarea {
+    margin-left: 16px;
+}
