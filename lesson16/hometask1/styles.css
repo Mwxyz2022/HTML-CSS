@@ -27,7 +27,9 @@ html {
     text-align: center;
 }
 
-.form-label {}
+.form-control {
+    margin-top: 8px;
+}
 
 .form-input {
     margin-top: 4px;
