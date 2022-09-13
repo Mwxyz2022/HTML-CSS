@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-control {
+    margin: 16px;
+}
+
+.choose-gender input {
+    margin-right: 5px;
+}
+
+textarea {
+    margin-left: 16px;
+}
