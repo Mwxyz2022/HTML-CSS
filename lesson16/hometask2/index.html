@@ -22,80 +22,82 @@
             <input type="checkbox" name="like" checked readonly />
         </div>
         <div>
-            <input type="color" name="favouriteColor" value="#ff7f50" />
+            <input type="color" value="#ff7f50" name="favouriteColor" />
         </div>
         <div>
-            <input type="date" value="2021-01-02" />
+            <input type="date" value="2021-01-02" name="birthDate" />
         </div>
         <div>
-            <input type="datetime-local" name="birthTime" value="2024-10-04T13:02" />
+            <input type="datetime-local" value="2024-10-04T13:02" name="birthTime" />
         </div>
         <div>
-            <input type="email" name="email" placeholder="example@domain.com" required />
+            <input type="email" placeholder="example@domain.com" name="email" required />
         </div>
+
         <div>
             <input type="file" name="avatar" />
         </div>
+
         <div>
-            <input type="month" name="startLearning" value="2020-01" />
+            <input type="month" value="2020-01" name="startLearning" />
         </div>
+
         <div>
-            <input type="number" name="favoriteNumber" value="17" />
+            <input type="number" value="17" name="favouriteNumber" />
         </div>
+
         <div>
-            <textarea name="story" id="textArea" cols="30" rows="5" placeholder="A long time ago..."></textarea>
+            <textarea name="story" cols="30" rows="5" placeholder="A long time ago..."></textarea>
         </div>
+
         <div>
             <input type="password" name="password" value="secret" />
         </div>
-        <div>
-            <label><input type="radio" name="language" value="html" /> HTML</label>
-            <label><input type="radio" name="language" value="css" checked /> CSS</label
-        >
-        <label
-          ><input
-            type="radio"
-            name="language"
-            value="javascript"
-          />JavaScript</label
-        >
-      </div>
 
-      <div>
-        <input type="range" name="learningProgress" value="30" />
-      </div>
-      <div>
-        <select name="framework" id="select">
+        <div class="languages">
+            <label class="radio-button">
+          <input type="radio" value="html" name="button" /> HTML
+        </label>
+            <label class="radio-button">
+          <input type="radio" value="css" name="button" checked /> CSS
+        </label>
+            <label class="radio-button">
+          <input type="radio" value="javascript" name="button" /> JavaScript
+        </label>
+        </div>
+
+        <div>
+            <input type="range" value="30" name="learningProgress" />
+        </div>
+
+        <div>
+            <select name="framework">
           <option value="react">React</option>
           <option value="jquery" selected>jQuery</option>
           <option value="bootstrap">Bootstrap</option>
         </select>
-      </div>
-      <div>
-        <input
-          type="search"
-          name="search"
-          placeholder="Type first letters..."
-        />
-      </div>
-      <div>
-        <input type="time" name="lunchEnd" value="14:01" />
-      </div>
-
-      <div>
-        <input
-          type="url"
-          name="website"
-          placeholder="https://website.com"
-          required
-        />
-      </div>
-      <div>
-        <input type="week" name="birthWeek" value="2021-W51" />
-        <div class="input-submit">
-          <button type="submit">Save</button>
         </div>
-      </div>
+
+        <div>
+            <input type="search" placeholder="Type first letters..." name="search" />
+        </div>
+
+        <div>
+            <input type="time" name="lunchEnd" value="14:01" />
+        </div>
+
+        <div>
+            <input type="url" placeholder="https://website.com" name="website" required />
+        </div>
+
+        <div>
+            <input type="week" value="2021-W51" name="birthWeek" />
+        </div>
+
+        <div>
+            <input type="submit" value="Save" />
+        </div>
     </form>
-  </body>
+</body>
+
 </html>
