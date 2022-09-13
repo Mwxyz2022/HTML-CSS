@@ -5,3 +5,7 @@
 .form-control {
     margin: 16px;
 }
+
+.choose-gender input {
+    margin-right: 3px;
+}
