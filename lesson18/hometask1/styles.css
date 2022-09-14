@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -11,20 +9,25 @@
 
 .bat-full {
     font-size: 16px;
+    line-height: 16px;
 }
 
 .bat-three {
     font-size: 32px;
+    line-height: 32px;
 }
 
 .bat-half {
     font-size: 64px;
+    line-height: 64px;
 }
 
 .bat-quarter {
     font-size: 128px;
+    line-height: 128px;
 }
 
 .bat-empty {
     font-size: 256px;
+    line-height: 256px;
 }
