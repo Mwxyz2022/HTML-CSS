@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bat-full {
+    font-size: 16px;
+}
+
+.bat-three {
+    font-size: 32px;
+}
+
+.bat-half {
+    font-size: 64px;
+}
+
+.bat-quarter {
+    font-size: 128px;
+}
+
+.bat-empty {
+    font-size: 256px;
+}
