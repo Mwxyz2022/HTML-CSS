@@ -8,7 +8,7 @@ html {
     font-size: 16px;
 }
 
-.page {
+body {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -21,7 +21,7 @@ html {
     color: #fff;
 }
 
-main {
+.main {
     display: flex;
     flex-grow: 1;
 }
