@@ -8,10 +8,10 @@ html {
     font-size: 16px;
 }
 
-body {
-    height: 100vh;
+.page {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .header {
@@ -21,14 +21,14 @@ body {
     color: #fff;
 }
 
-.main {
+main {
     display: flex;
     flex-grow: 1;
 }
 
 .navigation {
     width: 20%;
-    padding: .5em;
+    padding: 0.5em;
 }
 
 .nav-list {
@@ -59,8 +59,8 @@ body {
 
 .section {
     width: 60%;
-    padding: .5em;
     font-size: 1.25em;
+    padding: 0.5em;
 }
 
 .section__header {
@@ -81,13 +81,12 @@ body {
 
 .news {
     width: 20%;
-    padding: .5em;
+    padding: 0.5em;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
     background-color: #e5e5e5;
-    padding: .5em;
-    text-align: center;
+    padding: 0.5em;
+    justify-content: center;
 }
