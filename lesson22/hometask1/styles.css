@@ -63,7 +63,7 @@ html{
     display: flex;
     background-color: #808080;
     color: white;
-    /* font-size: 2em; */
+    height: 2em;
     margin-top: 0.5em;
   }
   
