@@ -96,7 +96,7 @@ body {
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:601px){
   
   .img-small{ 
     display: none;
@@ -108,7 +108,7 @@ body {
 
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:601px){
   
   .img-small{ 
     max-width: 100%;
@@ -137,7 +137,7 @@ body {
   flex-direction: column;
   width: 100%;
 }
-@media screen and (min-width:600px) and (max-width:1200px ){
+@media screen and (min-width:601px) and (max-width:1200px ){
   .main{ 
     flex-direction: column;
   
