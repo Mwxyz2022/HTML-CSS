@@ -2,19 +2,24 @@ $sm: 600px;
 $md: 900px;
 $lg: 1200px;
 
-@mixin for-extra-small {
+@mixin for-to599-small {
   @media screen and (max-width: $sm-1) {
     @content;
   }
 }
 
-@mixin for-medium-up {
+@mixin for-from600to899-up {
   @media screen and (min-width: $sm) {
     @content;
   }
 }
 
-@mixin for-large-up {
+@mixin for-from900to1200-up {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+@mixin for-from1200-up {
   @media screen and (min-width: $lg) {
     @content;
   }
